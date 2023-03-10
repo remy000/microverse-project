@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(77, 71, 71);
+    color: white;
+}
+
+nav{
+    background-color: #770000;
+    position: fixed;
+    margin: 0;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    padding: 0px 60px;
+    text-align: right;
+    justify-content: flex-end;
+    display: block;
+    float: right;
+    right: 0;
+
+}
+#welcome-section{
+    background-color: rgb(77, 74, 74);
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+#welcome-section h2{
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.project-title h1{
+    text-align: center;
+}
+.project-title.cont{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.project-title.titles{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 25px;
+}
+.project-title.titles.container{
+    text-align: center;
+    padding: 10px 20px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+#profile-link{
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(0, 0, 0);
+}
+#profile-link a{
+ text-decoration: none;
+ color: rgb(77, 77, 231);
+}
